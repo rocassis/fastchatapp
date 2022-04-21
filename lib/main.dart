@@ -1,9 +1,6 @@
-// ignore_for_file: prefer_const_constructors
-
-import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/link.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -54,12 +51,16 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final phoneController = TextEditingController();
+  var phoneMask = new MaskTextInputFormatter(
+      mask: '(##) 9####-####',
+      filter: {"#": RegExp(r'[0-9]')},
+      type: MaskAutoCompletionType.lazy);
   /**
    * Init a chat on whatsapp with the number tiped by user
    */
   void _callWhatsApp() async {
     String url = "whatsapp://send/?phone=55" +
-        phoneController.text +
+        phoneController.text.replaceAll(RegExp('[^A-Za-z0-9]'), '.') +
         "&text&app_absent=0";
     if (await canLaunch(url)) {
       await launch(url);
@@ -87,8 +88,6 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       // key: scaffoldKey,
       appBar: AppBar(
-        //       // Here we take the value from the MyHomePage object that was created by
-        //       // the App.build method, and use it to set our appbar title.
         title: Text('Fast Chat'),
       ),
       body: SafeArea(
@@ -105,6 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(20, 40, 20, 40),
                 child: TextFormField(
+                  inputFormatters: [phoneMask],
                   controller: phoneController,
                   obscureText: false,
                   decoration: InputDecoration(
