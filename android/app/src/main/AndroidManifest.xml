@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.telewhat">
+    package="com.example.fashtchatapp">
    <application
-        android:label="telewhat"
+        android:label="Fasht Chat App"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

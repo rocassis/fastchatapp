@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(telewhat LANGUAGES CXX)
+project(fashtchatapp LANGUAGES CXX)
 
-set(BINARY_NAME "telewhat")
+set(BINARY_NAME "fashtchatapp")
 
 cmake_policy(SET CMP0063 NEW)
 

@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "telewhat",
+            "name": "fashtchatapp",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "telewhat (profile mode)",
+            "name": "fashtchatapp (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "telewhat (release mode)",
+            "name": "fashtchatapp (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

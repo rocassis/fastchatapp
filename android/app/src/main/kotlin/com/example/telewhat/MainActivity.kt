@@ -1,4 +1,4 @@
-package com.example.telewhat
+package com.example.fashtchatapp
 
 import io.flutter.embedding.android.FlutterActivity
 

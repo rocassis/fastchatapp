@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "telewhat" "\0"
+            VALUE "FileDescription", "fashtchatapp" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "telewhat" "\0"
+            VALUE "InternalName", "fashtchatapp" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "telewhat.exe" "\0"
-            VALUE "ProductName", "telewhat" "\0"
+            VALUE "OriginalFilename", "fashtchatapp.exe" "\0"
+            VALUE "ProductName", "fashtchatapp" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

@@ -1,6 +1,6 @@
 {
-    "name": "telewhat",
-    "short_name": "telewhat",
+    "name": "fashtchatapp",
+    "short_name": "fashtchatapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

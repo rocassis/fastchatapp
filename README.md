@@ -1,4 +1,4 @@
-# telewhat
+# fashtchatapp
 
 A new Flutter project.
 
