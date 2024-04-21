@@ -1,7 +1,5 @@
 import 'package:fastchatapp2/app/pages/home.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localization/flutter_localization.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
@@ -35,7 +33,7 @@ class MyApp extends StatelessWidget {
         // colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      supportedLocales: [Locale('pt'), Locale('en')],
+      supportedLocales: const [Locale('pt'), Locale('en')],
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       home: const HomePage(),

@@ -34,7 +34,7 @@ class _TelegramPageState extends State<TelegramPage> {
                 _inputController.text = value;
               },
               keyboardType: TextInputType.emailAddress,
-              decoration: InputDecoration(border: OutlineInputBorder()),
+              decoration: const InputDecoration(border: OutlineInputBorder()),
             ),
             const SizedBox(height: 20.0),
             Padding(
