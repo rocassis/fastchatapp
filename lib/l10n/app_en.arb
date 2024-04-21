@@ -1,0 +1,20 @@
+{
+    "home_header_text": "FastChatApp foi feito para facilitar as conversas com apps sem precisar salvar contatos no smartphone",
+    "about_text": "Read more about FastChatApp",
+    "about_page_title": "About",
+    "about_header_title": "FastChatApp is a messaging app that lets you connect with others quickly.",
+    "about_page_text": "This app does not currently support initiating chats in WhatsApp without saving the phone number. This functionality is not available through the official WhatsApp API.",
+    "privacy_policy_text": "Privacy Policy",
+    "terms_conditions_text": "Terms & Conditions",
+    "version_text": "Version",
+    "privacy_policy_title": "Privacy Policy",
+    "terms_conditions_title": "Terms & Conditions",
+    "file_error_text": "Error reading file .md",
+    "empty_text": "Please fill in the field",
+    "whatsapp_text": "Enter the phone number and click chat to start the conversation",
+    "whatsapp_error": "Unable to open WhatsApp. Check if the app is installed or updated",
+    "telegram_text": "Enter the user name and click chat to start the conversation",
+    "telegram_error": "Unable to open Telegram. Check if the app is installed or updated.",
+    "signal_text": "Enter the user name and click chat to start the conversation",
+    "signal_error": "Unable to open Signal. Check if the app is installed or updated."
+}
